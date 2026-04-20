@@ -5,7 +5,7 @@
 ### Opening the Project
 You can run the project directly through the [web](https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html)[1]. If you'd like to explore the contents of this demo, you're welcome to check out and run the [source code](https://github.com/mjrevel/movement-lesson)[2]
 <br/>
-![Game Demo](movement-lesson-screenshot1.png)
+[![Game Demo](movement-lesson-screenshot1.png)](https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html)
 <br/>
 Movement: Use the arrow keys to move the objects left and right
 <br/>
