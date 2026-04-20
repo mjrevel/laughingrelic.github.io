@@ -100,7 +100,7 @@ global_position.x = global_position.x + (dir.normalized().x * 10 * delta)
 
 ## Caution to Developers
 ### Persistent Drag Settings
-**Note:** I figured I'd share this since I spent more time than I'd like to admit trying to figure out why a **RigidBody** I had setup with no friction or linear dampening was still slowing down after an external force had been applied on it. I hope this saves you some time!
+**Note:** I figured I'd share this since I spent more time than I'd like to admit trying to figure out why a **RigidBody** I had setup with no friction or linear damping was still slowing down after an external force had been applied on it. I hope this saves you some time!
 
 All **PhysicsBodies** inherent linear dampening from the Project Settings located in `Physics > 2D/3D > Default Linear Dampening`.  You can either modify this default setting or when creating a **PhysicsBody** be sure to set the `Damp Mode` to "Replace" to ignore the project settings.
 ## Resources
