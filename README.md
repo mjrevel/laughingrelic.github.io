@@ -41,7 +41,7 @@ p(Momentum) = *m***v**
 <br/>
 J(Impulse) = FΔ*t*
 ## PhysicsBody Types
-*As you learn Godot. You'll find that there are some exceptions to the rules. Use this table as a guideline for how different physics bodies should (not how they can) be used.* 
+*As you learn Godot. You'll find that there are some exceptions to the rules. Use this table as a guideline for how different physics bodies should be used (not how they can be used).* 
 
 | Physics Body                                                                                          | Moved Manually | Moved by Forces | Affects Bodies While Moving | Receives Collision Callbacks | Gravity Scale / Custom Physics |
 | ----------------------------------------------------------------------------------------------------- | :------------: | :-------------: | :-------------------------: | :--------------------------: | :----------------------------: |
