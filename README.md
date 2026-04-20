@@ -25,12 +25,12 @@ Keep these in mind for now, we'll talk about them again soon in another section.
 **Momentum** - Product of mass and velocity
 
 **Force**(N) - An action that causes an object to change its velocity by resisting other forces
-![[car_moving.webm]]
+![Moving car](car_moving.webm)
 <span style="text-decoration: overline;">v</span> = Δs/Δt (Velocity in Godot is pixels per second)
 F = *m***a**
 
 **Impulse**(Ns) - A force applied over time that changes the momentum of an object. 
-![[bat_hit.webm]]
+![Bat hitting ball](bat_hit.webm)
 p(Momentum) = *m***v**
 J(Impulse) = FΔ*t*
 ## PhysicsBody Types
