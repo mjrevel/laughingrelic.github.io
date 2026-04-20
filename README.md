@@ -30,7 +30,7 @@ Keep these in mind for now, we'll talk about them again soon in another section.
 F = *m***a**
 
 **Impulse**(Ns) - A force applied over time that changes the momentum of an object. 
-![Bat hitting ball](bat_hit.webm.mp4?raw=true)
+![Bat hitting ball](https://github.com/mjrevel/laughingrelic.github.io/raw/refs/heads/main/bat_hit.webm.mp4)
 p(Momentum) = *m***v**
 J(Impulse) = FΔ*t*
 ## PhysicsBody Types
