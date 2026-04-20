@@ -1,9 +1,9 @@
 # Movement Lesson
 ## Pre-flights
-- Godot 4.6+ installed, alternatively you can try the [Godot Web Editor](https://editor.godotengine.org/releases/latest/)
+- Godot 4.6+ installed, alternatively you use the [Godot Web Editor](https://editor.godotengine.org/releases/latest/)
 - Basic Godot user interface knowledge
 ### Opening the Project
-You can run the project directly through the [web](https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html)[1]. If you'd like to explore the contents of this demo, you're welcome to check out and run the source code[2]
+You can run the project directly through the [web](https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html)[1]. If you'd like to explore the contents of this demo, you're welcome to check out and run the [source code](https://github.com/mjrevel/movement-lesson)[2]
 
 [1] https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html
 <br/>
