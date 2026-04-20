@@ -16,23 +16,29 @@ You can run the project directly through the [web](https://mjrevel.github.io/lau
 What is a body? A body is a game object that has physical properties, depending on the specific body it can be affected by gravity, drag, and collision. Typically game engines refer to these body types as **static**, **kinematic**, and **dynamic**. Godot refers to these bodies as **static**, **character**, and **rigid** (following the same order). 
 
 **static** - Bodies that don't move. Think of these as non-movable objects, like walls or terrain
+<br/>
 **kinematic** - Bodies that can move, but don't respond to forces. Think of these as moving platforms, or user controlled bodies that need to move in a predictable manner
+<br/>
 **dynamic** - Bodies that can move, but only through forces. Think of these as anything in your game world that needs to move in a realistic way. Usually requires a bit more work to get the physics just right.
 
 Keep these in mind for now, we'll talk about them again soon in another section.
 ## Physics Introduction
 **Velocity**  - Measurement of speed in a certain direction
+<br/>
 **Acceleration** - A change in velocity
+<br/>
 **Momentum** - Product of mass and velocity
 
 **Force**(N) - An action that causes an object to change its velocity by resisting other forces
 ![Moving car](car_moving.gif)<br/>
 <span style="text-decoration: overline;">v</span> = Δs/Δt (Velocity in Godot is pixels per second)
+<br/>
 F = *m***a**
 
 **Impulse**(Ns) - A force applied over time that changes the momentum of an object. 
 ![Bat hitting ball](bat_hit.gif)<br/>
 p(Momentum) = *m***v**
+<br/>
 J(Impulse) = FΔ*t*
 ## PhysicsBody Types
 *As you learn Godot. You'll find that there are some exceptions to the rules. Use this table as a guideline for how different physics bodies should (not how they can) be used.* 
@@ -105,7 +111,9 @@ global_position.x = global_position.x + (dir.normalized().x * 10 * delta)
 All **PhysicsBodies** inherent linear dampening from the Project Settings located in `Physics > 2D/3D > Default Linear Dampening`.  You can either modify this default setting or when creating a **PhysicsBody** be sure to set the `Damp Mode` to "Replace" to ignore the project settings.
 ## Resources
 [Godot Docs - Physics Introduction](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html)
+<br/>
 [KidsCanCode - RigidBody2D](https://kidscancode.org/godot_recipes/4.x/kyn/rigidbody2d/index.html) - Primarily an article on the forces that can be applied to move RigidBodies
+<br/>
 [KidsCanCode - CharacterBody2D](https://kidscancode.org/godot_recipes/4.x/kyn/characterbody2d/index.html) - Covers both move_and_collide and move_and_slide
 
 <small>Last Updated 4/18/2026</small>
