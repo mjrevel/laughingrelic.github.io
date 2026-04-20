@@ -6,6 +6,7 @@
 You ran run the project directly through the [web](https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html)[1]. If you'd like to explore the contents of this demo, you're welcome to check out and run the source code[2]
 
 [1] https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html
+<br/>
 [2]https://github.com/mjrevel/movement-lesson
 ## Questions to Consider
 - What do you think you can make with the different body types?
