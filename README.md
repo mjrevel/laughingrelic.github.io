@@ -7,6 +7,8 @@ You can run the project directly through the [web](https://mjrevel.github.io/lau
 <br/>
 ![Game Demo](movement-lesson-screenshot1.png)
 <br/>
+Movement: Use the arrow keys to move the objects left and right
+<br/>
 [1] https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html
 <br/>
 [2]https://github.com/mjrevel/movement-lesson
