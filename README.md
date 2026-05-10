@@ -15,6 +15,7 @@ Download the [source code](https://github.com/mjrevel/movement-lesson)
 - What do you think you can make with the different body types?
 - Modify the external force direction. Which bodies does it affect? Why?
 - Which bodies are changing direction instantaneously? Why?
+
 ## Types of Movable Bodies
 What is a body? A body is a game object that has physical properties, depending on the specific body it can be affected by gravity, drag, and collision. Typically game engines refer to these body types as **static**, **kinematic**, and **dynamic**. Godot refers to these bodies as **static**, **character**, and **rigid** (following the same order). 
 
