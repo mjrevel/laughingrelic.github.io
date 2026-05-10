@@ -1,17 +1,16 @@
 # Movement Lesson
-## Pre-flights
-- Godot 4.6+ installed, alternatively you use the [Godot Web Editor](https://editor.godotengine.org/releases/latest/)
-- Basic Godot user interface knowledge
-### Opening the Project
-You can run the project directly through the [web](https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html)[1]. If you'd like to explore the contents of this demo, you're welcome to check out and run the [source code](https://github.com/mjrevel/movement-lesson)[2]
+## Option 1 - Running the Project
+You can run the project directly through the [web](https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html)
 <br/>
 [![Game Demo](movement-lesson-screenshot1.png)](https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html)
 <br/>
 Movement: Use the arrow keys to move the objects left and right
-<br/>
-[1] https://mjrevel.github.io/laughingrelic.github.io/movement-lesson/movement-lesson.html
-<br/>
-[2]https://github.com/mjrevel/movement-lesson
+## Option 2 - Installing and Running the Project
+### Requirements
+- Godot 4.6+ installed, alternatively you use the [Godot Web Editor](https://editor.godotengine.org/releases/latest/)
+- Basic Godot user interface knowledge
+
+Download the [source code](https://github.com/mjrevel/movement-lesson)
 ## Questions to Consider
 - What do you think you can make with the different body types?
 - Modify the external force direction. Which bodies does it affect? Why?
@@ -27,12 +26,18 @@ What is a body? A body is a game object that has physical properties, depending 
 
 Keep these in mind for now, we'll talk about them again soon in another section.
 ## Physics Introduction
+**Note:** I promise I won't turn this into a full on physics course (believe me when I say, I'm not even properly qualified in doing so), but I love how models can help us understand more complex systems.
+
+
+Most, if not all game engines handle forces in a similar to the force diagram shown below. As you'll see down in further examples that we move the player by generating a force to overcome other external forces such as gravity and friction.
+![Forces Free-Body Diagram](box_free_body_dia.jpg)<br/>
+
 **Velocity**  - Measurement of speed in a certain direction
 <br/>
 **Acceleration** - A change in velocity
 <br/>
 **Momentum** - Product of mass and velocity
-
+<br/>
 **Force**(N) - An action that causes an object to change its velocity by resisting other forces
 ![Moving car](car_moving.gif)<br/>
 <span style="text-decoration: overline;">v</span> = Δs/Δt (Velocity in Godot is pixels per second)
@@ -119,5 +124,7 @@ All **PhysicsBodies** inherent linear dampening from the Project Settings locate
 [KidsCanCode - RigidBody2D](https://kidscancode.org/godot_recipes/4.x/kyn/rigidbody2d/index.html) - Primarily an article on the forces that can be applied to move RigidBodies
 <br/>
 [KidsCanCode - CharacterBody2D](https://kidscancode.org/godot_recipes/4.x/kyn/characterbody2d/index.html) - Covers both move_and_collide and move_and_slide
+<br/>
+[University Physics - Friction](https://pressbooks.bccampus.ca/universityphysicssandbox/chapter/friction/) - Explains how forces overcome one another using the free-body diagram method
 
-<small>Last Updated 4/18/2026</small>
+<small>Last Updated 5/10/2026</small>
